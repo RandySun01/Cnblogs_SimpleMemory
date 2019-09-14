@@ -74,15 +74,15 @@ if (initCheck()) {
         '<div id="rightMenu"></div>';
 
     window.cnblogsConfigDefault = {
-        GhUserName: 'BNDong',
-        GhRepositories: 'Cnblogs-Theme-SimpleMemory',
-        GhVersions: 'v1.1.2',
+        GhUserName: 'RandySun01',
+        GhRepositories: 'Cnblogs_SimpleMemory',
+        GhVersions: 'v1.1',
         blogUser: "",
         blogAvatar: "",
-        blogStartDate: "2019-01-01",
+        blogStartDate: "2019-07-10",
         menuCustomList: {},
         menuNavList: [],
-        webpageTitleOnblur: "(oﾟvﾟ)ノ Hi",
+        webpageTitleOnblur: "生活很苦，我依然微笑！(oﾟvﾟ)ノ Hi",
         webpageTitleOnblurTimeOut: 500,
         webpageTitleFocus: "(*´∇｀*) 欢迎回来！",
         webpageTitleFocusTimeOut: 1000,
@@ -154,12 +154,12 @@ if (initCheck()) {
             animateSections: true
         },
         homeTopImg: [
-            "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/home_top_bg.jpg"
+            "https://img2018.cnblogs.com/blog/1739642/201908/1739642-20190822165006650-831201745.jpg"
         ],
         homeBannerText: "",
         homeBannerTextType: "jinrishici",
         essayTopImg: [
-            "https://raw.githubusercontent.com/BNDong/Cnblogs-Theme-SimpleMemory/master/img/nothome_top_bg.jpg"
+            "https://img2018.cnblogs.com/blog/1739642/201908/1739642-20190822164833280-1469931720.jpg"
         ],
         essayCodeHighlightingType: 'cnblogs',
         essayCodeHighlighting: '',
@@ -171,8 +171,8 @@ if (initCheck()) {
         bottomBlogroll: [],
         bottomText: {
             icon: "❤️",
-            left: "",
-            right: ""
+            left: "生活很苦，我依然微笑！",
+            right: "生活很苦，我依然微笑！"
         },
         consoleList: [],
         themeAuthor: false,

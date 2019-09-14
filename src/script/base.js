@@ -1,8 +1,8 @@
 /*!
  * DATE: 2018-03-13
- * UPDATES AND DOCS AT: https://github.com/BNDong
- * https://www.cnblogs.com/bndong/
- * @author: BNDong, dbnuo@foxmail.com
+ * UPDATES AND DOCS AT: https://github.com/RandySun01
+ * https://www.cnblogs.com/randysun/
+ * @author: randysun
  **/
 function Base() {
 
@@ -526,7 +526,7 @@ function Base() {
             +'" target="_blank" style="color: #888;text-decoration: underline;">'
             +(window.cnblogsConfig.GhVersions).substring(0,7)+'</a>');
 
-        if (window.cnblogsConfig.themeAuthor && window.location.href.search("www.cnblogs.com/bndong") === -1 ) setTheme();
+        if (window.cnblogsConfig.themeAuthor && window.location.href.search("www.cnblogs.com/randysun") === -1 ) setTheme();
         window.setInterval( setRunTime, 500 );
         setBlogroll();
         timeIds.setCnzzTId = window.setInterval( setCnzz, 1000 );
@@ -570,7 +570,7 @@ function Base() {
             $('#footer').prepend('<div class="footer-image"></div>');
             setInterval(function(){
                 var footer = $('#footer');
-                var themeHtml = '<p id="ThemeAuthors" style="color: #444;z-index: 999;">- Theme Author：<a href="https://www.cnblogs.com/bndong/" target="_blank" style="color:#444;">BNDong</a> -</p></div>';
+                var themeHtml = '<p id="ThemeAuthors" style="color: #444;z-index: 999;">- Theme Author：<a href="https://www.cnblogs.com/randysun/" target="_blank" style="color:#444;">RandySun01</a> -</p></div>';
                 if ($('#ThemeAuthors').length == 0) {
                     $('#footer').append(themeHtml);
                 } else {
